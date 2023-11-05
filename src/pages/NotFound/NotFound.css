@@ -1,0 +1,9 @@
+.back-to-home {
+  color: var(--font-color);
+}
+
+.back-to-home:hover {
+  color: var(--bg-color);
+    background-color: var(--hover-color);
+    box-shadow: 0px 0px 10px var(--hover-color);
+}

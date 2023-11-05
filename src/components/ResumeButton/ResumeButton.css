@@ -1,0 +1,50 @@
+.btn-resume {
+  width: fit-content;
+  position: relative;
+  overflow: hidden;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  background-color: var(--btn-color);
+  border-radius: 15px;
+}
+
+.btn-resume:hover {
+  color: var(--dark-color);
+  background-color: var(--hover-color);
+  box-shadow: 0px 0px 10px var(--hover-color);
+}
+
+.btn-resume:after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  bottom: -50%;
+  left: -50%;
+  background: linear-gradient(
+    to bottom,
+    rgba(229, 172, 142, 0),
+    
+    rgb(163, 234, 252, .375) 50%,
+    rgba(229, 172, 142, 0)
+  );
+  transform: rotateZ(60deg) translate(-5em, 7.5em);
+}
+
+.btn-resume::after,
+.btn-resume:focus::after {
+  animation: btn-resume-animation 2.25s forwards infinite;
+}
+
+@keyframes btn-resume-animation {
+  0% {
+    transform: rotateZ(60deg) translate(-5em, 7.5em);
+  }
+  40% {
+    transform: rotateZ(60deg) translate(1em, -9em);
+  }
+  100% {
+    transform: rotateZ(60deg) translate(1em, -9em);
+  }
+}

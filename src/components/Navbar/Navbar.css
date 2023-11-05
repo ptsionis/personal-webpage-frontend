@@ -1,0 +1,29 @@
+.navbar-wrapper {
+  width: 100dvw;
+  height: 100dvh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--dark-color);
+  background-size: 1000% 1000%;
+  animation: gradient 15s ease infinite;
+  transition: all 0.75s ease;
+  transform: translateX(-100%);
+  z-index: 999;
+}
+
+.navbar-wrapper.open {
+  transform: translateX(0);
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}

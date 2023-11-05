@@ -1,0 +1,9 @@
+.home-hero-image {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.76)),
+    url("/images/heros/homeHero.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}

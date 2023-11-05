@@ -1,0 +1,14 @@
+[
+  { "name": "React", "code": "react" },
+  { "name": "Bootstrap", "code": "bootstrap" },
+  { "name": "SASS", "code": "sass" },
+  { "name": "HTML", "code": "html" },
+  { "name": "CSS", "code": "css" },
+  { "name": "JavaScript", "code": "javascript" },
+  { "name": "Java", "code": "java" },
+  { "name": "PHP", "code": "php" },
+  { "name": "MySQL", "code": "mysql" },
+  { "name": "Git", "code": "git" },
+  { "name": "JSON", "code": "json" },
+  { "name": "Adobe Photoshop", "code": "photoshop" }
+]
