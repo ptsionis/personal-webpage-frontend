@@ -44,7 +44,7 @@ export default function Navbar() {
           );
         })}
       </ul>
-      <ul className="d-flex justify-content-center align-items-center list-unstyled">
+      <ul className="social-list d-flex justify-content-center align-items-center list-unstyled py-3">
         {socials.map((social) => {
           return (
             <SocialLink key={social.code} code={social.code} url={social.url} svg={social.svg} />

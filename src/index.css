@@ -3,8 +3,8 @@
 :root {
   --bg-color: #000607;
   --font-color: #f1eeea;
-  --dark-color: #15191d;
-  --btn-color: #005791;
+  --dark-color: rgb(1, 5, 8);
+  --btn-color: rgb(12, 17, 22);
   --hover-color: #61dbfb;
 }
 
@@ -43,6 +43,6 @@ main {
 
 @media screen and (max-width: 768px) {
   .page-header {
-    font-size: calc(5 * 768 / 100);
+    font-size: 7.5vw;
   }
 }

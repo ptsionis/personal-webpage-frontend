@@ -1,16 +1,15 @@
 import React from "react";
 
+import Name from "../../components/Name/Name";
 import ResumeButton from "../../components/ResumeButton/ResumeButton";
-
-import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="wrapper home-hero-image">
+    <div className="wrapper">
       <main className="container">
         <div className="flex-grow-1"></div>
         <div className="flex-grow-1 d-flex flex-column justify-content-center align-items-center">
-          <h1 className="page-header">PANAGIOTIS TSIONIS</h1>
+          <Name />
           <div className="d-flex flex-column justify-content-center align-items-center text-center fw-bold mb-5">
             <h6>FULL STACK DEVELOPER @ DELOITTE</h6>
             <h6>

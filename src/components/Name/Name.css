@@ -1,0 +1,16 @@
+.name {
+    filter: url(#fire);
+  }
+  
+  .name h1 {
+    color: var(--dark-color);
+    text-shadow: 0 0 2px var(--hover-color), 0 0 7px var(--hover-color),
+      0 0 10px var(--hover-color), 0 0 15px var(--hover-color),
+      0 0 18px var(--hover-color);
+  }
+  
+  .name-svg {
+    width: 0;
+    height: 0;
+  }
+  

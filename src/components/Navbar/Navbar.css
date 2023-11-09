@@ -27,3 +27,7 @@
       background-position: 0% 50%;
   }
 }
+
+.social-list {
+  border-top: 1px solid var(--font-color);
+}
