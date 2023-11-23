@@ -19,10 +19,10 @@ export default function ProjectCard({ title, code, description, url, stack }) {
           src={`/images/projects/${code}.webp`}
           alt={title}
         />
-        <h3 className="mt-3 fw-bold">{title.toUpperCase()}</h3>
+        <h3 className="mt-3">{title.toUpperCase()}</h3>
       </div>
       <div className="d-flex flex-column flex-grow-1 justify-content-between align-items-center align-items-md-end p-4">
-        <div className="project-desc text-center text-md-end m-0 ms-md-5 fst-italic">
+        <div className="project-desc text-center text-md-end m-0 ms-md-5">
           {description}
         </div>
         <div className="d-flex justify-content-center justify-content-md-end flex-wrap mt-4 mt-md-4">

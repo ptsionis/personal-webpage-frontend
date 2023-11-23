@@ -7,7 +7,7 @@ export default function NavItem({ activeNavItem, linkPath, setOpenNav }) {
   return (
     <li className="my-3 hover">
       <Link
-        className={`nav-li mx-2 p-2 rounded fw-bold text-center ${
+        className={`nav-li mx-2 p-2 rounded text-center ${
           activeNavItem ? "active" : ""
         }`}
         title={linkPath.toUpperCase()}

@@ -27,6 +27,15 @@ body {
     auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  z-index: var(--text-index);
+}
+
 a:hover, .hover:hover {
   cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"><ellipse fill="%230f1012" cx="12" cy="12" rx="7" ry="7"/></svg>')
   5 5,
@@ -59,15 +68,6 @@ main {
 .page-header {
   font-size: 5vw;
   text-align: center;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  z-index: var(--text-index);
 }
 
 @media screen and (max-width: 768px) {
