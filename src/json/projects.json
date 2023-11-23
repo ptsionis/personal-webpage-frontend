@@ -3,12 +3,12 @@
     "title": "KoKFilms",
     "code": "kokfilms",
     "stack": [
-      {"name": "React", "colorCode": "#3B71CA"},
-      {"name": "Bootstrap", "colorCode": "#563d7c"},
-      {"name": "Node.js", "colorCode": "#3c873a"},
-      {"name": "Express", "colorCode": "#808080"},
-      {"name": "YouTube API", "colorCode": "#ff0000"},
-      {"name": "Google Cloud Storage", "colorCode": "#4287f5"}
+      { "name": "React", "colorCode": "#3B71CA" },
+      { "name": "Bootstrap", "colorCode": "#563d7c" },
+      { "name": "Node.js", "colorCode": "#3c873a" },
+      { "name": "Express", "colorCode": "#808080" },
+      { "name": "YouTube API", "colorCode": "#ff0000" },
+      { "name": "Google Cloud Storage", "colorCode": "#4287f5" }
     ],
     "description": "A portfolio website for a videographer, built with ReactJS for the frontend and ExpressJS for the backend. It implements YouTube API so the owner can dynamically modify which videos will be shown and in which order, just by editing their own playlists on YouTube! A project that I developed from start to finish, where I gained further experience about the development, production mode and deployment of a web app.",
     "url": "https://kokfilms.gr"
@@ -17,24 +17,24 @@
     "title": "FootieQuiz",
     "code": "footiequiz",
     "stack": [
-      {"name": "React", "colorCode": "#3b71ca"},
-      {"name": "Bootstrap", "colorCode": "#563d7c"},
-      {"name": "Node.js", "colorCode": "#3c873a"},
-      {"name": "Express", "colorCode": "#808080"},
-      {"name": "socket.io", "colorCode": "#5c4e4e"},
-      {"name": "PostgreSQL", "colorCode": "#336791"}
+      { "name": "React", "colorCode": "#3b71ca" },
+      { "name": "Bootstrap", "colorCode": "#563d7c" },
+      { "name": "Node.js", "colorCode": "#3c873a" },
+      { "name": "Express", "colorCode": "#808080" },
+      { "name": "socket.io", "colorCode": "#5c4e4e" },
+      { "name": "PostgreSQL", "colorCode": "#336791" }
     ],
     "description": "FootieQuiz, a real time PvP web app, is an online quiz with football questions. My biggest personal project so far, where I learned how to build a fully functional, full stack, web application. A user can create a room, get a room password, and share it to a friend, who then will be able to join the room with the specific password they were given. After that, game will start and they will be able to found out who knows more about the #1 sport in the world!",
-    "url": "https://github.com/ptsionis/footiequiz-frontend"
+    "url": "https://footiequiz.eu"
   },
   {
     "title": "FlexAbility",
     "code": "flexability",
     "stack": [
-      {"name": "Java", "colorCode": "#f89820"},
-      {"name": "PHP", "colorCode": "#8993be"},
-      {"name": "MySQL", "colorCode": "#00758f"},
-      {"name": "Android Studio", "colorCode": "#3DDC84"}
+      { "name": "Java", "colorCode": "#f89820" },
+      { "name": "PHP", "colorCode": "#8993be" },
+      { "name": "MySQL", "colorCode": "#00758f" },
+      { "name": "Android Studio", "colorCode": "#3DDC84" }
     ],
     "description": "FlexAbility is a mobile app and a team project, which serves as a physiotherapists management system, created in the means of my Android development course in university and awarded as one of the three best projects of the semester. During this project, I learned how to create mobile Android apps, further developed my Java and PHP skills, but most importantly, was given once again the chance to be a member of a group that co-operated to produce a solid result.",
     "url": "https://github.com/FlexAbility-Physiotherapy-App/FlexAbilityApp"
@@ -43,10 +43,10 @@
     "title": "NerdWork",
     "code": "nerdwork",
     "stack": [
-      {"name": "Java", "colorCode": "#f89820"},
-      {"name": "JavaFX", "colorCode": "#5382a1"},
-      {"name": "PHP", "colorCode": "#8993be"},
-      {"name": "MySQL", "colorCode": "#00758f"}
+      { "name": "Java", "colorCode": "#f89820" },
+      { "name": "JavaFX", "colorCode": "#5382a1" },
+      { "name": "PHP", "colorCode": "#8993be" },
+      { "name": "MySQL", "colorCode": "#00758f" }
     ],
     "description": "NerdWork is my first team project, a desktop Java app that was created and awarded in my Software Engineering course. It is a platform, where university students can keep track of their courses, but also rate both courses and professors. I experienced how development teams work, which are the possible difficulties someone might face and how to resolve them, in order to produce the best result.",
     "url": "https://github.com/Nerdwork-Team/Nerdwork-Project"

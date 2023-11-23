@@ -9,9 +9,9 @@ const Education = () => {
     <div className="wrapper">
       <main className="container p-4">
         <h1 className="page-header">APPLIED INFORMATICS</h1>
-        <h6 className="text-center">
+        <h5 className="text-center">
           UNDERGRADUATE STUDENT AT UNIVERSITY OF MACEDONIA
-        </h6>
+        </h5>
         <ul className="d-flex row justify-content-center align-items-center mt-5 px-4 list-unstyled">
           {skills.map((skill) => {
             return <SkillIcon key={skill.code} skill={skill} />;

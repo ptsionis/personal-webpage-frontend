@@ -11,6 +11,7 @@
   box-shadow: 0px 0px 10px var(--hover-color);
 }
 
-.project-card:hover h3, .project-card:hover .project-desc {
+.project-card:hover h3,
+.project-card:hover .project-desc {
   color: var(--dark-color);
 }
