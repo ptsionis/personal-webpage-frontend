@@ -31,6 +31,11 @@ const Cursor = () => {
       });
     });
   }, []);
+  
+  const isMobileOrTablet = window.innerWidth <= 1024;
+
+  if (isMobileOrTablet) return null;
+
   return <div className="cursor"></div>;
 };
 
