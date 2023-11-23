@@ -5,7 +5,7 @@ import "./ResumeButton.css";
 export default function ResumeButton() {
   return (
     <a
-      className="btn-resume p-3 m-4 fw-bold text-center"
+      className="btn-resume p-3 mt-4 text-center"
       title="Download Resume"
       href="/documents/ptsionis_resume.pdf"
       role="button"

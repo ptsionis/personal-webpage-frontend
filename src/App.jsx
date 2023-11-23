@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Cursor from "./components/Cursor/Cursor";
 import Navbar from "./components/Navbar/Navbar";
 
 const LoadingFallback = lazy(() =>
@@ -14,6 +15,7 @@ const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
 const App = () => {
   return (
     <BrowserRouter>
+      <Cursor />
       <Navbar />
       <Suspense fallback={<LoadingFallback />}>
         <Routes>

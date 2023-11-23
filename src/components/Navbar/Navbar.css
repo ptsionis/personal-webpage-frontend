@@ -9,7 +9,7 @@
   animation: gradient 15s ease infinite;
   transition: all 0.75s ease;
   transform: translateX(-100%);
-  z-index: 999;
+  z-index: var(--nav-index);
 }
 
 .navbar-wrapper.open {

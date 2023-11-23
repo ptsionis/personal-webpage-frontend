@@ -1,20 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 :root {
-  --bg-color: #000607;
+  --bg-color: #0f1012;
   --font-color: #f1eeea;
-  --dark-color: rgb(1, 5, 8);
-  --btn-color: rgb(12, 17, 22);
+  --dark-color: #0c0d11;
+  --btn-color: #1a1d1f;
   --hover-color: #61dbfb;
+  --cursor-index: 999;
+  --nav-index: 998;
+  --text-index: 3;
+  --button-index: 4;
 }
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  line-height: 1.75 !important;
+  line-height: 1.75;
   transition: all 0.3s ease;
   box-sizing: border-box;
+}
+
+body {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"><ellipse fill="%2361dbfb" cx="12" cy="12" rx="7" ry="7"/></svg>')
+      5 5,
+    auto;
+}
+
+a:hover, .hover:hover {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"><ellipse fill="%230f1012" cx="12" cy="12" rx="7" ry="7"/></svg>')
+  5 5,
+auto;
 }
 
 main {
@@ -32,17 +48,30 @@ main {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  background-color: var(--bg-color);
+  background: rgb(6, 12, 17);
+  background: linear-gradient(
+    8deg,
+    rgba(6, 12, 17, 1) 0%,
+    rgba(0, 5, 6, 1) 100%
+  );
 }
 
 .page-header {
   font-size: 5vw;
-  font-weight: bold;
   text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  z-index: var(--text-index);
 }
 
 @media screen and (max-width: 768px) {
   .page-header {
-    font-size: 10vw;
+    font-size: 6vw;
   }
 }

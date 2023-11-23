@@ -5,7 +5,7 @@ import "./NavItem.css";
 
 export default function NavItem({ activeNavItem, linkPath, setOpenNav }) {
   return (
-    <li className="my-3">
+    <li className="my-3 hover">
       <Link
         className={`nav-li mx-2 p-2 rounded fw-bold text-center ${
           activeNavItem ? "active" : ""

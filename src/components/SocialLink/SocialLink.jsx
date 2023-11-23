@@ -8,7 +8,7 @@ export default function SocialLink({code, url, svg}) {
   } ,[]);
 
   return (
-    <li className="social-link-wrapper mx-2 p-2 rounded">
+    <li className="social-link-wrapper mx-2 p-2 rounded hover">
       <a className="social-link" href={url} target="_blank" title={code.toUpperCase()}>
         <div id={`svg-${code}`}></div>
       </a>
