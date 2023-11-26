@@ -2,7 +2,7 @@
   color: var(--font-color);
   font-size: 14px;
   text-decoration: none;
-  background-color: var(--dark-color);
+  background-color: var(--btn-color);
   border-radius: 15px;
 }
 
@@ -13,5 +13,5 @@
 
 .project-card:hover h3,
 .project-card:hover .project-desc {
-  color: var(--dark-color);
+  color: var(--bg-color);
 }

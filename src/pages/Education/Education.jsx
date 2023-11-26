@@ -1,25 +1,48 @@
-import React from "react";
+import React from 'react'
 
-import SkillIcon from "../../components/SkillIcon/SkillIcon";
+import Starfield from '../../components/Starfield/Starfield'
 
-import skills from "../../json/skills.json";
+import { Fade } from 'react-awesome-reveal'
+
+import './Education.css'
+
+import courses from '../../data/courses.json'
 
 const Education = () => {
   return (
-    <div className="wrapper">
-      <main className="container p-4">
-        <h1 className="page-header">APPLIED INFORMATICS</h1>
-        <h5 className="text-center">
-          UNDERGRADUATE STUDENT AT UNIVERSITY OF MACEDONIA
-        </h5>
-        <ul className="d-flex row justify-content-center align-items-center mt-5 px-4 list-unstyled">
-          {skills.map((skill) => {
-            return <SkillIcon key={skill.code} skill={skill} />;
+    <main>
+      <Starfield />
+      <section className="wrapper">
+        <h1 className="mt-5 mb-4">APPLIED INFORMATICS</h1>
+        <ul className="container row d-flex justify-content-center list-unstyled">
+          {courses.map((course, index) => {
+            const delay = index * 50
+            return (
+              <Fade
+                key={course}
+                direction="down"
+                fraction={0}
+                delay={delay}
+                triggerOnce
+              >
+                <li className="course m-2 p-2 col-8 col-md-4 col-lg-3 text-center rounded">
+                  {course}
+                </li>
+              </Fade>
+            )
           })}
         </ul>
-      </main>
-    </div>
-  );
-};
+        <a
+          className="visit-ai mb-5 mt-4 p-3"
+          href="https://www.uom.gr/en/dai"
+          target="_blank"
+          title="APPLIED INFORMATICS WEBSITE"
+        >
+          VISIT APPLIED INFORMATICS
+        </a>
+      </section>
+    </main>
+  )
+}
 
-export default Education;
+export default Education

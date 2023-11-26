@@ -1,15 +1,21 @@
 .nav-li {
-    color: var(--font-color);
-    font-size: 18px;
-    text-decoration: none;
+  color: var(--font-color);
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .nav-li:hover {
-    color: var(--bg-color);
-    background-color: var(--hover-color);
-    box-shadow: 0px 0px 10px var(--hover-color);
+  color: var(--bg-color);
+  background-color: var(--hover-color);
+  box-shadow: 0px 0px 10px var(--hover-color);
 }
 
 .active {
-    color: var(--hover-color);
+  color: var(--hover-color);
+}
+
+@media screen and (max-width: 768px) {
+  .nav-li {
+    font-size: 14px;
+  }
 }

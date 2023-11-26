@@ -1,12 +1,14 @@
-import React from "react";
+import React from 'react'
 
-import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import ProjectCard from '../../components/ProjectCard/ProjectCard'
 
-import projects from "../../json/projects.json";
+import projects from '../../data/projects.json'
+import Starfield from '../../components/Starfield/Starfield'
 
 const Projects = () => {
   return (
     <div className="wrapper">
+      <Starfield />
       <main className="container p-4">
         <div className="w-100 row">
           {projects.map((project) => {
@@ -19,12 +21,12 @@ const Projects = () => {
                 url={project.url}
                 stack={project.stack}
               />
-            );
+            )
           })}
         </div>
       </main>
     </div>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects
