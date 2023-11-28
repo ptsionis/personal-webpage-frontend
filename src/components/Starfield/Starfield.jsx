@@ -8,8 +8,6 @@ const Starfield = () => {
       <div className="stars"></div>
       <div className="stars"></div>
       <div className="stars"></div>
-      <div className="stars"></div>
-      <div className="stars"></div>
     </div>
   )
 }

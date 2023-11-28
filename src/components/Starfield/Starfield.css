@@ -18,12 +18,6 @@
     radial-gradient(2px 2px at 40px 70px, var(--hover-color), rgba(0, 0, 0, 0)),
     radial-gradient(2px 2px at 50px 160px, var(--hover-color), rgba(0, 0, 0, 0)),
     radial-gradient(2px 2px at 90px 40px, var(--hover-color), rgba(0, 0, 0, 0)),
-    radial-gradient(2px 2px at 130px 80px, var(--hover-color), rgba(0, 0, 0, 0)),
-    radial-gradient(1px 1px at 35px 125px, var(--hover-color), rgba(0, 0, 0, 0)),
-    radial-gradient(3px 3px at 75px 145px, var(--hover-color), rgba(0, 0, 0, 0)),
-    radial-gradient(1px 1px at 185px 65px, var(--hover-color), rgba(0, 0, 0, 0)),
-    radial-gradient(1px 1px at 35px 85px, var(--hover-color), rgba(0, 0, 0, 0)),
-    radial-gradient(1px 1px at 115px 55px, var(--hover-color), rgba(0, 0, 0, 0)),
     radial-gradient(
       2px 2px at 160px 120px,
       var(--hover-color),
@@ -31,7 +25,9 @@
     );
   background-repeat: repeat;
   background-size: 200px 200px;
-  animation: zoom 5s infinite;
+  transform-origin: 50% 50%;
+  transform: scale(0.5);
+  animation: zoom 7s ease-in-out infinite;
   opacity: 0;
 }
 
