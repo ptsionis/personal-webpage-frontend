@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Starfield from '../../components/Starfield/Starfield'
+import Course from '../../components/Course/Course'
 
 import { Fade } from 'react-awesome-reveal'
 
@@ -19,15 +20,14 @@ const Education = () => {
             const delay = index * 50
             return (
               <Fade
+                className="col-8 col-md-4 col-lg-3 course m-2 p-2 text-center rounded"
                 key={course}
                 direction="down"
                 fraction={0}
                 delay={delay}
                 triggerOnce
               >
-                <li className="course m-2 p-2 col-8 col-md-4 col-lg-3 text-center rounded">
-                  {course}
-                </li>
+                <Course course={course} />
               </Fade>
             )
           })}
