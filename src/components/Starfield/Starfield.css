@@ -36,23 +36,23 @@
 }
 
 .stars:nth-child(1) {
-  background-position: 50% 50%;
+  transform: 50% 50%;
   animation-delay: 0s;
 }
 .stars:nth-child(2) {
-  background-position: 20% 60%;
+  transform: 20% 60%;
   animation-delay: 1s;
 }
 .stars:nth-child(3) {
-  background-position: -20% -30%;
+  transform: -20% -30%;
   animation-delay: 2s;
 }
 .stars:nth-child(4) {
-  background-position: 40% -80%;
+  transform: 40% -80%;
   animation-delay: 3s;
 }
 .stars:nth-child(5) {
-  background-position: -20% 30%;
+  transform: -20% 30%;
   animation-delay: 4s;
 }
 
