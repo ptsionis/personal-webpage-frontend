@@ -24,6 +24,7 @@ const Education = () => {
                 key={course}
                 direction="down"
                 fraction={0}
+                duration={1500}
                 delay={delay}
                 triggerOnce
               >

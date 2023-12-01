@@ -20,7 +20,7 @@ const Home = () => {
       <Starfield />
       <section className="wrapper">
         <div className="container d-flex flex-column justify-content-center align-items-center">
-          <Fade direction="down" fraction={1} duration={2000} triggerOnce>
+          <Fade direction="down" fraction={1} duration={1500} triggerOnce>
             <h1>PANAGIOTIS TSIONIS</h1>
           </Fade>
           <div className="d-flex flex-column justify-content-center align-items-center text-center">
@@ -35,7 +35,7 @@ const Home = () => {
             className="col-6 d-flex justify-content-center"
             direction="down"
             fraction={1}
-            duration={2000}
+            duration={1500}
             triggerOnce
           >
             <img
@@ -48,7 +48,7 @@ const Home = () => {
           <div className="col-6">
             <h2 className="text-center my-4">APPLIED INFORMATICS</h2>
             <h5 className="text-center">UNDERGRAD STUDENT @ UoM</h5>
-            <ul className="d-flex row justify-content-center align-items-center mt-5 px-4 list-unstyled">
+            <ul className="row d-flex justify-content-center align-items-center m-0 p-0 mt-5 list-unstyled">
               {skills.map((skill) => {
                 return <SkillIcon key={skill.code} skill={skill} />
               })}
@@ -68,7 +68,7 @@ const Home = () => {
                 direction="down"
                 fraction={1}
                 delay={delay}
-                duration={2000}
+                duration={1500}
                 triggerOnce
               >
                 <ProjectPreview

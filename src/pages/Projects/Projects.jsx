@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className="wrapper">
       <Starfield />
-      <main className="container p-4">
+      <main className="container d-flex justify-content-center align-items-center p-4">
         <div className="w-100 row">
           {projects.map((project) => {
             return (
