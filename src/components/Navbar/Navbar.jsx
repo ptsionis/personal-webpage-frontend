@@ -1,34 +1,35 @@
-import React, { useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
 
-import NavIcon from './NavIcon'
-import NavItem from './NavItem'
-import SocialLink from '../SocialLink/SocialLink'
+import NavIcon from "./NavIcon";
+import NavItem from "./NavItem";
+import SocialLink from "../SocialLink/SocialLink";
 
-import './Navbar.css'
-import navPaths from '../../data/nav.json'
-import socials from '../../data/socials.json'
+import "./Navbar.css";
+
+import navPaths from "../../data/nav.json";
+import socials from "../../data/socials.json";
 
 export default function Navbar() {
-  const location = useLocation()
-  const [openNav, setOpenNav] = useState(false)
+  const location = useLocation();
+  const [openNav, setOpenNav] = useState(false);
 
   const isActiveNavItem = (path) => {
-    if (path === 'home') {
-      return location.pathname === '/'
+    if (path === "home") {
+      return location.pathname === "/";
     } else {
-      return location.pathname === `/${path}`
+      return location.pathname === `/${path}`;
     }
-  }
+  };
 
   const toggleNav = () => {
-    setOpenNav(!openNav)
-  }
+    setOpenNav(!openNav);
+  };
 
   return (
     <nav
       className={`navbar-wrapper d-flex flex-column justify-content-center align-items-center p-4${
-        openNav ? ' open' : ''
+        openNav ? " open" : ""
       }`}
     >
       <NavIcon openNav={openNav} toggleNav={toggleNav} />
@@ -41,7 +42,7 @@ export default function Navbar() {
               linkPath={path}
               setOpenNav={setOpenNav}
             />
-          )
+          );
         })}
       </ul>
       <ul className="social-list d-flex justify-content-center align-items-center list-unstyled py-3">
@@ -53,9 +54,9 @@ export default function Navbar() {
               url={social.url}
               svg={social.svg}
             />
-          )
+          );
         })}
       </ul>
     </nav>
-  )
+  );
 }

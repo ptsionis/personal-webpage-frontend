@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
-import './LearnMore.css'
+import "./LearnMore.css";
 
 const LearnMore = ({ path }) => {
   return (
@@ -10,9 +10,9 @@ const LearnMore = ({ path }) => {
       to={path}
       title="LEARN MORE"
     >
-      {'LEARN MORE >'}
+      {"LEARN MORE >"}
     </Link>
-  )
-}
+  );
+};
 
-export default LearnMore
+export default LearnMore;

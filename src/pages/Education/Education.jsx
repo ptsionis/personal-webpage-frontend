@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Fade } from "react-awesome-reveal";
 
-import Starfield from '../../components/Starfield/Starfield'
-import Course from '../../components/Course/Course'
+import Starfield from "../../components/Starfield/Starfield";
+import Course from "../../components/Course/Course";
 
-import { Fade } from 'react-awesome-reveal'
+import "./Education.css";
 
-import './Education.css'
-
-import courses from '../../data/courses.json'
+import courses from "../../data/courses.json";
 
 const Education = () => {
   return (
@@ -17,7 +16,7 @@ const Education = () => {
         <h1 className="mt-5 mb-4">APPLIED INFORMATICS</h1>
         <ul className="container row d-flex justify-content-center list-unstyled">
           {courses.map((course, index) => {
-            const delay = index * 50
+            const delay = index * 50;
             return (
               <Fade
                 className="col-8 col-md-4 col-lg-3 course m-2 p-2 text-center rounded"
@@ -30,7 +29,7 @@ const Education = () => {
               >
                 <Course course={course} />
               </Fade>
-            )
+            );
           })}
         </ul>
         <a
@@ -43,7 +42,7 @@ const Education = () => {
         </a>
       </section>
     </main>
-  )
-}
+  );
+};
 
-export default Education
+export default Education;

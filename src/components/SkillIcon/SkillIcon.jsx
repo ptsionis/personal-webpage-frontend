@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export default function SkillIcon({ skill }) {
   return (
     <li
       className="col-2 col-lg-1 d-flex justify-content-center my-2"
-      style={{ width: 'fit-content' }}
+      style={{ width: "fit-content" }}
     >
       <img
         className="skill-icon"
@@ -13,5 +13,5 @@ export default function SkillIcon({ skill }) {
         title={skill.name.toUpperCase()}
       />
     </li>
-  )
+  );
 }

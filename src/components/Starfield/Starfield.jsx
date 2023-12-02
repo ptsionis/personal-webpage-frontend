@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-import './Starfield.css'
+import "./Starfield.css";
 
 const Starfield = () => {
   return (
@@ -9,7 +9,7 @@ const Starfield = () => {
       <div className="stars"></div>
       <div className="stars"></div>
     </div>
-  )
-}
+  );
+};
 
-export default Starfield
+export default Starfield;

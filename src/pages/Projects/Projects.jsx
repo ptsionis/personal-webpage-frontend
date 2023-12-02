@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-import ProjectCard from '../../components/ProjectCard/ProjectCard'
+import Starfield from "../../components/Starfield/Starfield";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
-import projects from '../../data/projects.json'
-import Starfield from '../../components/Starfield/Starfield'
+import projects from "../../data/projects.json";
 
 const Projects = () => {
   return (
@@ -21,12 +21,12 @@ const Projects = () => {
                 url={project.url}
                 stack={project.stack}
               />
-            )
+            );
           })}
         </div>
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

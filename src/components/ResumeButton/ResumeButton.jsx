@@ -1,6 +1,6 @@
-import { React } from 'react'
+import { React } from "react";
 
-import './ResumeButton.css'
+import "./ResumeButton.css";
 
 export default function ResumeButton() {
   return (
@@ -13,5 +13,5 @@ export default function ResumeButton() {
     >
       DOWNLOAD RESUME
     </a>
-  )
+  );
 }

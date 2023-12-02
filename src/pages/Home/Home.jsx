@@ -1,18 +1,16 @@
-import React from 'react'
-import { Fade } from 'react-awesome-reveal'
+import React from "react";
+import { Fade } from "react-awesome-reveal";
 
-import Starfield from '../../components/Starfield/Starfield'
-import ResumeButton from '../../components/ResumeButton/ResumeButton'
+import Starfield from "../../components/Starfield/Starfield";
+import ResumeButton from "../../components/ResumeButton/ResumeButton";
+import SkillIcon from "../../components/SkillIcon/SkillIcon";
+import ProjectPreview from "../../components/ProjectPreview/ProjectPreview";
+import LearnMore from "../../components/LearnMore/LearnMore";
 
-import SkillIcon from '../../components/SkillIcon/SkillIcon'
-import skills from '../../data/skills.json'
+import "./Home.css";
 
-import LearnMore from '../../components/LearnMore/LearnMore'
-
-import ProjectPreview from '../../components/ProjectPreview/ProjectPreview'
-import previews from '../../data/previews.json'
-
-import './Home.css'
+import skills from "../../data/skills.json";
+import previews from "../../data/previews.json";
 
 const Home = () => {
   return (
@@ -50,7 +48,7 @@ const Home = () => {
             <h5 className="text-center">UNDERGRAD STUDENT @ UoM</h5>
             <ul className="row d-flex justify-content-center align-items-center m-0 p-0 mt-5 list-unstyled">
               {skills.map((skill) => {
-                return <SkillIcon key={skill.code} skill={skill} />
+                return <SkillIcon key={skill.code} skill={skill} />;
               })}
             </ul>
           </div>
@@ -60,7 +58,7 @@ const Home = () => {
       <section className="wrapper">
         <ul className="container d-flex row justify-content-center align-items-center list-unstyled m-0 mt-5 p-0">
           {previews.map((preview, index) => {
-            const delay = index * 100
+            const delay = index * 100;
             return (
               <Fade
                 key={preview.title}
@@ -77,13 +75,13 @@ const Home = () => {
                   previewUrl={preview.previewUrl}
                 />
               </Fade>
-            )
+            );
           })}
         </ul>
-        <LearnMore path={'/projects'} />
+        <LearnMore path={"/projects"} />
       </section>
     </main>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

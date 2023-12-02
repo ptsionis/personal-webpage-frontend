@@ -1,1 +1,0 @@
-export const article = "article container min-vh-100 position-relative d-flex flex-column align-items-center justify-content-center";

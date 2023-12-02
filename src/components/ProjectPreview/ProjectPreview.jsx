@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-import './ProjectPreview.css'
+import "./ProjectPreview.css";
 
 const ProjectPreview = ({ title, previewImg, previewUrl }) => {
   return (
@@ -18,7 +18,7 @@ const ProjectPreview = ({ title, previewImg, previewUrl }) => {
         {title}
       </a>
     </li>
-  )
-}
+  );
+};
 
-export default ProjectPreview
+export default ProjectPreview;
