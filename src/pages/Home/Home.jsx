@@ -56,28 +56,31 @@ const Home = () => {
         <LearnMore path="/education" />
       </section>
       <section className="wrapper">
-        <ul className="container d-flex row justify-content-center align-items-center list-unstyled m-0 mt-5 p-0">
-          {previews.map((preview, index) => {
-            const delay = index * 100;
-            return (
-              <Fade
-                key={preview.title}
-                className="preview-wrapper col-12 col-lg-6 d-flex justify-content-center align-items-center m-3 p-0"
-                direction="down"
-                fraction={1}
-                delay={delay}
-                duration={1500}
-                triggerOnce
-              >
-                <ProjectPreview
-                  title={preview.title}
-                  previewImg={preview.previewImg}
-                  previewUrl={preview.previewUrl}
-                />
-              </Fade>
-            );
-          })}
-        </ul>
+        <Fade
+          direction="down"
+          fraction={0.75}
+          cascade
+          damping={0.2}
+          duration={1500}
+          triggerOnce
+        >
+          <ul className="container d-flex row justify-content-center align-items-center list-unstyled m-0 mt-5 p-0">
+            {previews.map((preview) => {
+              return (
+                <li
+                  key={preview.title}
+                  className="project-preview col-12 col-lg-6 d-flex justify-content-center align-items-center m-3 p-0"
+                >
+                  <ProjectPreview
+                    title={preview.title}
+                    previewImg={preview.previewImg}
+                    previewUrl={preview.previewUrl}
+                  />
+                </li>
+              );
+            })}
+          </ul>
+        </Fade>
         <LearnMore path={"/projects"} />
       </section>
     </main>

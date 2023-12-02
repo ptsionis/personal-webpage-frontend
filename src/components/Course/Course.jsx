@@ -3,7 +3,7 @@ import React from "react";
 import "./Course.css";
 
 const Course = ({ course }) => {
-  return <li className="course">{course}</li>;
+  return <span className="course">{course}</span>;
 };
 
 export default Course;

@@ -4,7 +4,7 @@ import "./ProjectPreview.css";
 
 const ProjectPreview = ({ title, previewImg, previewUrl }) => {
   return (
-    <li className="project-preview">
+    <>
       <img
         className="project-preview-img"
         src={`.././images/previews/${previewImg}`}
@@ -17,7 +17,7 @@ const ProjectPreview = ({ title, previewImg, previewUrl }) => {
       >
         {title}
       </a>
-    </li>
+    </>
   );
 };
 
