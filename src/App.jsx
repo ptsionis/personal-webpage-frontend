@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React, { useEffect, lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Cursor from "./components/Cursor/Cursor";
@@ -13,6 +13,14 @@ const Education = lazy(() => import("./pages/Education/Education"));
 const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
 
 const App = () => {
+  useEffect(() => {
+    const savedColor = localStorage.getItem("theme");
+    document.documentElement.style.setProperty(
+      "--clr-hover",
+      savedColor || "#00c3ff"
+    );
+  }, []);
+
   return (
     <BrowserRouter>
       <Cursor />

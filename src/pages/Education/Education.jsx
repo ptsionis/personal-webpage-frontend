@@ -26,7 +26,7 @@ const Education = () => {
             {courses.map((course) => {
               return (
                 <li
-                  className="course col-8 col-md-4 col-lg-3 course m-2 p-2 text-center rounded"
+                  className="course col-8 col-md-4 col-lg-3 course m-2 px-5 py-3 text-center d-flex justify-content-center align-items-center"
                   key={course}
                 >
                   <Course course={course} />
@@ -36,7 +36,7 @@ const Education = () => {
           </ul>
         </Fade>
         <a
-          className="visit-ai mb-5 mt-4 p-3"
+          className="visit-ai mb-5 mt-4 px-5 py-3"
           href="https://www.uom.gr/en/dai"
           target="_blank"
           title="APPLIED INFORMATICS WEBSITE"

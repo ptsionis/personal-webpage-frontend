@@ -1,10 +1,20 @@
+.deloitte {
+  font-weight: bold;
+  color: var(--clr-hover);
+}
+
+.deloitte:hover {
+  color: #86bc25;
+  text-shadow: 0px 0px 10px #86bc25;
+}
+
 .uom-logo {
-  width: 300px;
+  width: 200px;
 }
 
 @media screen and (max-width: 1200px) {
   .uom-logo {
-    width: 200px;
+    width: 175px;
   }
 }
 

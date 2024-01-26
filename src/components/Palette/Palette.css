@@ -1,0 +1,28 @@
+.palette {
+  position: fixed;
+  top: 50dvh;
+  right: -5em;
+  transform: translate(0, -50%);
+  color: var(--clr-secondary);
+  background-color: var(--clr-btn);
+  border-top-left-radius: var(--radius-primary);
+  border-bottom-left-radius: var(--radius-primary);
+  z-index: var(--z-palette);
+}
+
+.open {
+  right: 0em;
+}
+
+.palette-pop {
+  position: absolute;
+  left: -2.675em;
+  background-color: var(--clr-btn);
+  border-top-left-radius: var(--radius-primary);
+  border-bottom-left-radius: var(--radius-primary);
+  z-index: var(--z-palette);
+}
+
+.palette-pop:hover {
+  background-color: var(--clr-hover);
+}

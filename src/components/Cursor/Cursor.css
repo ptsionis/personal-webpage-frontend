@@ -3,9 +3,10 @@
   pointer-events: none;
   width: 18px;
   height: 18px;
-  border: 2px solid red;
+  border: 2px solid;
+  border-color: red;
   border-radius: 18px;
   transform: translate(-50%, -50%);
   transition: transform 0.2s;
-  z-index: var(--cursor-index);
+  z-index: var(--z-cursor);
 }

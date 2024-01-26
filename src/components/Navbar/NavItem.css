@@ -1,17 +1,17 @@
 .nav-li {
-  color: var(--font-color);
+  color: var(--clr-secondary);
   font-size: 18px;
   text-decoration: none;
 }
 
 .nav-li:hover {
-  color: var(--bg-color);
-  background-color: var(--hover-color);
-  box-shadow: 0px 0px 10px var(--hover-color);
+  color: var(--clr-primary);
+  background-color: var(--clr-hover);
+  box-shadow: 0px 0px 10px var(--clr-hover);
 }
 
 .active {
-  color: var(--hover-color);
+  color: var(--clr-hover);
 }
 
 @media screen and (max-width: 768px) {

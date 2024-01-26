@@ -1,15 +1,15 @@
 .visit-ai {
-  font-size: 14px;
+  font-weight: bold;
   color: var(--text-color);
-  background-color: var(--btn-color);
+  background-color: var(--clr-btn);
   text-decoration: none;
-  border-radius: 15px;
+  border-radius: var(--radius-primary);
 }
 
 .visit-ai:hover {
-  color: var(--bg-color);
-  background-color: var(--hover-color);
-  box-shadow: 0px 0px 10px var(--hover-color);
+  color: var(--clr-primary);
+  background-color: var(--clr-hover);
+  box-shadow: 0px 0px 10px var(--clr-hover);
 }
 
 @media screen and (max-width: 768px) {

@@ -1,65 +1,65 @@
 .kebab-menu {
-    width: calc(17.5px * 3);
-    height: calc(17.5px * 3);
-    position: absolute;
-    top: 5%;
-    left: 102.5%;
-  }
+  width: calc(17.5px * 3);
+  height: calc(17.5px * 3);
+  position: absolute;
+  top: 5%;
+  left: 102.5%;
+}
 
-  .kebab-menu:hover {
-    color: var(--bg-color);
-    background-color: var(--hover-color);
-    box-shadow: 0px 0px 10px var(--hover-color);
-  }
-  
-  .kebab-menu.opened {
-    left: calc(100dvw - 100px);
-  }
-  
-  .kebab-menu span {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: var(--font-color);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-  }
-  
-  .kebab-menu:hover span {
-    background-color: var(--bg-color);
-  }
-  
-  .kebab-menu span:nth-child(1) {
-    top: 0px;
-  }
-  
-  .kebab-menu span:nth-child(2) {
-    top: 0px;
-  }
-  
-  .kebab-menu span:nth-child(3) {
-    top: 15px;
-  }
-  
-  .kebab-menu span:nth-child(4) {
-    top: 30px;
-  }
-  
-  .kebab-menu span:nth-child(5) {
-    top: 30px;
-  }
-  
-  .kebab-menu.opened span:nth-child(1) {
-    transform: translate(-20px, 7.5px);
-  }
-  .kebab-menu.opened span:nth-child(2) {
-    transform: translate(10px, 7.5px);
-  }
-  .kebab-menu.opened span:nth-child(4) {
-    transform: translate(-20px, 2.5px);
-  }
-  .kebab-menu.opened span:nth-child(5) {
-    transform: translate(10px, 2.5px);
-  }
+.kebab-menu:hover {
+  color: var(--clr-primary);
+  background-color: var(--clr-hover);
+  box-shadow: 0px 0px 10px var(--clr-hover);
+}
+
+.kebab-menu.opened {
+  left: calc(100dvw - 100px);
+}
+
+.kebab-menu span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--clr-secondary);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.kebab-menu:hover span {
+  background-color: var(--clr-primary);
+}
+
+.kebab-menu span:nth-child(1) {
+  top: 0px;
+}
+
+.kebab-menu span:nth-child(2) {
+  top: 0px;
+}
+
+.kebab-menu span:nth-child(3) {
+  top: 15px;
+}
+
+.kebab-menu span:nth-child(4) {
+  top: 30px;
+}
+
+.kebab-menu span:nth-child(5) {
+  top: 30px;
+}
+
+.kebab-menu.opened span:nth-child(1) {
+  transform: translate(-20px, 7.5px);
+}
+.kebab-menu.opened span:nth-child(2) {
+  transform: translate(10px, 7.5px);
+}
+.kebab-menu.opened span:nth-child(4) {
+  transform: translate(-20px, 2.5px);
+}
+.kebab-menu.opened span:nth-child(5) {
+  transform: translate(10px, 2.5px);
+}

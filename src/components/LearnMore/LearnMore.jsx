@@ -6,11 +6,11 @@ import "./LearnMore.css";
 const LearnMore = ({ path }) => {
   return (
     <Link
-      className="learn-more hover mb-5 p-3 mt-5"
+      className="learn-more hover mb-5 px-5 py-3 mt-5"
       to={path}
-      title="LEARN MORE"
+      title="Learn More"
     >
-      {"LEARN MORE >"}
+      {"LEARN MORE"}
     </Link>
   );
 };

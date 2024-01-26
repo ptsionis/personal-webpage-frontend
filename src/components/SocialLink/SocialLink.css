@@ -1,8 +1,8 @@
 .social-link-wrapper:hover {
-  background-color: var(--hover-color);
-  box-shadow: 0px 0px 10px var(--hover-color);
+  background-color: var(--clr-hover);
+  box-shadow: 0px 0px 10px var(--clr-hover);
 }
 
 .social-link-wrapper:hover .social-link path {
-  fill: var(--bg-color);
+  fill: var(--clr-primary);
 }

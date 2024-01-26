@@ -1,5 +1,6 @@
 .course {
-  font-size: 14px;
-  color: var(--hover-color);
-  background-color: var(--btn-color);
+  font-weight: bold;
+  color: var(--clr-hover);
+  background-color: var(--clr-btn);
+  border-radius: var(--radius-primary);
 }

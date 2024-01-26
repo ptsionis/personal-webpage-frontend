@@ -2,18 +2,18 @@
   width: fit-content;
   position: relative;
   overflow: hidden;
-  font-size: 14px;
+  font-weight: bold;
   text-decoration: none;
   color: white;
-  background-color: var(--btn-color);
-  border-radius: 15px;
-  z-index: var(--button-index);
+  background-color: var(--clr-btn);
+  border-radius: var(--radius-primary);
+  z-index: var(--z-btn);
 }
 
 .btn-resume:hover {
-  color: var(--bg-color);
-  background-color: var(--hover-color);
-  box-shadow: 0px 0px 10px var(--hover-color);
+  color: var(--clr-primary);
+  background-color: var(--clr-hover);
+  box-shadow: 0px 0px 10px var(--clr-hover);
 }
 
 .btn-resume:after {
@@ -26,26 +26,23 @@
   background: linear-gradient(
     to bottom,
     rgba(229, 172, 142, 0),
-    rgb(163, 234, 252, 0.375) 50%,
+    rgba(217, 243, 250, 0.375) 15%,
     rgba(229, 172, 142, 0)
   );
-  transform: rotateZ(60deg) translate(-5em, 7.5em);
+  transform: rotateZ(60deg) translate(-5em, 5em);
 }
 
 .btn-resume::after,
 .btn-resume:focus::after {
-  animation: btn-resume-animation 2.25s forwards infinite;
+  animation: btn-resume-animation 2.5s forwards infinite;
 }
 
 @keyframes btn-resume-animation {
   0% {
-    transform: rotateZ(60deg) translate(-5em, 7.5em);
-  }
-  40% {
-    transform: rotateZ(60deg) translate(1em, -9em);
+    transform: rotateZ(60deg) translate(-5em, 20em);
   }
   100% {
-    transform: rotateZ(60deg) translate(1em, -9em);
+    transform: rotateZ(60deg) translate(1em, -20em);
   }
 }
 
