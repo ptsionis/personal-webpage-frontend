@@ -15,6 +15,7 @@ const Education = () => {
       <section className="wrapper">
         <h1 className="mt-5 mb-4">APPLIED INFORMATICS</h1>
         <Fade
+          className="w-100"
           direction="down"
           fraction={0}
           cascade

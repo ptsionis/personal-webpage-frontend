@@ -43,20 +43,34 @@ const Home = () => {
           <div className="container d-flex flex-column justify-content-center align-items-center w-100">
             <h2 className="text-center mt-4">EDUCATION</h2>
             <Fade
-              className="col-6 d-flex justify-content-center"
+              className="col-6 d-flex justify-content-center w-100"
               direction="down"
               fraction={1}
               duration={1500}
               triggerOnce
             >
               <img
-                className="uom-logo mt-5"
+                className="uom-logo my-5"
                 src="../../images/uom-logo.webp"
                 alt="UoM Logo"
                 title="UNIVERSITY OF MACEDONIA"
               />
+              <ul className="d-flex flex-column justify-content-center align-items-center">
+                <li>
+                  I am an undergraduate student, studying Applied Informatics at
+                  the University of Macedonia.
+                </li>
+                <li>
+                  Throughout my studies, I have gained a solid understanding of
+                  fundamental Computer Science concepts.
+                </li>
+                <li>
+                  Additionally, I've explored how Informatics can be applied in
+                  both financial and marketing sectors.
+                </li>
+              </ul>
             </Fade>
-            <div className="col-6">
+            <div className="col-6 w-100">
               <ul className="row d-flex justify-content-center align-items-center m-0 p-0 mt-5 list-unstyled">
                 {skills.map((skill) => {
                   return <SkillIcon key={skill.code} skill={skill} />;

@@ -27,6 +27,15 @@ body {
     auto;
 }
 
+h1 {
+  font-size: 5vw;
+  text-align: center;
+}
+
+h2 {
+  font-size: 4vw;
+}
+
 a {
   text-decoration: none;
 }
@@ -49,13 +58,9 @@ a:hover,
   background: var(--clr-primary);
 }
 
-h1 {
-  font-size: 5vw;
-  text-align: center;
-}
-
-h2 {
-  font-size: 4vw;
+.container {
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 @media screen and (max-width: 1024px) {
