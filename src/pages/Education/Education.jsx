@@ -7,11 +7,13 @@ import Course from "../../components/Course/Course";
 import "./Education.css";
 
 import courses from "../../data/courses.json";
+import Palette from "../../components/Palette/Palette";
 
 const Education = () => {
   return (
     <main>
       <Starfield />
+      <Palette />
       <section className="wrapper">
         <h1 className="mt-5 mb-4">APPLIED INFORMATICS</h1>
         <Fade

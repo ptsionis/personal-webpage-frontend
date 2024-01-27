@@ -16,9 +16,9 @@ import Palette from "../../components/Palette/Palette";
 const Home = () => {
   return (
     <>
+      <Starfield />
       <Palette />
       <main>
-        <Starfield />
         <section className="wrapper">
           <div className="container d-flex flex-column justify-content-center align-items-center">
             <Fade direction="down" fraction={1} duration={1500} triggerOnce>
