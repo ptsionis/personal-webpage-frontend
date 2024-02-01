@@ -26,7 +26,7 @@ const Home = () => {
             </Fade>
             <div className="d-flex flex-column justify-content-center align-items-center text-center">
               <span className="mt-2">
-                BUSINESS ANALYST AT{" "}
+                SOFTWARE DEVELOPER AT{" "}
                 <a
                   className="deloitte"
                   href="https://www.deloitte.com"
@@ -78,7 +78,7 @@ const Home = () => {
               </ul>
             </div>
           </div>
-          <LearnMore path="/education" />
+          <LearnMore path="/education" text={"SEE MORE SKILLS"} />
         </section>
         <section className="wrapper">
           <h2 className="text-center mt-4">PROJECTS</h2>
@@ -107,7 +107,7 @@ const Home = () => {
               })}
             </ul>
           </Fade>
-          <LearnMore path={"/projects"} />
+          <LearnMore path={"/projects"} text={"SEE MORE PROJECTS"} />
         </section>
       </main>
     </>
