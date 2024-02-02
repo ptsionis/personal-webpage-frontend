@@ -7,7 +7,7 @@ export default function ResumeButton() {
     <a
       className="btn-resume hover px-5 py-3 mt-4 text-center"
       title="Download Resume"
-      href="/documents/ptsionis_resume.pdf"
+      href="/documents/ptsionis_resume_p.pdf"
       role="button"
       download
     >
